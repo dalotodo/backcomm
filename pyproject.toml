@@ -5,7 +5,7 @@ description = "This package provides commission utility classes to be used with 
 authors = ["Pablo Perez <dalotodo69@gmail.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "^3.7"
 backtrader = "^1.9.76"
 
 [tool.poetry.dev-dependencies]
