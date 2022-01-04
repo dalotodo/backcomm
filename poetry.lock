@@ -1,0 +1,20 @@
+[[package]]
+name = "backtrader"
+version = "1.9.76.123"
+description = "BackTesting Engine"
+category = "main"
+optional = false
+python-versions = "*"
+
+[package.extras]
+plotting = ["matplotlib"]
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "fd43a128da791492d4ac22466f0566d7a5854a339f3822ce6646ffd87e53d557"
+
+[metadata.files]
+backtrader = [
+    {file = "backtrader-1.9.76.123-py2.py3-none-any.whl", hash = "sha256:0dc8912a98352b75122f8d7084bc63ee47f61c2a1d16f506d4d82aee3941297a"},
+]
