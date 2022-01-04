@@ -1,1 +1,1 @@
-from segmented import SegmentedCommissionInfo, PB
+from .segmented import SegmentedCommissionInfo, PB
