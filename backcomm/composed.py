@@ -11,7 +11,7 @@ class ComposedCommissionInfo(bt.CommissionInfo):
     )    
     
     def __init__(self):
-      # bt.CommissionInfo(self)
+      super().__init__()
       self.commissions = []
 
     def add_commission(self, comm):
