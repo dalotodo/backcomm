@@ -9,8 +9,10 @@ class ComposedCommissionInfo(bt.CommissionInfo):
       ('commtype', bt.CommInfoBase.COMM_FIXED ),  # % Apply Commission
       # Custom params       
     )    
-
-    commissions = []
+    
+    def __init__(self, **kwargs):
+      bt.CommissionInfo(self,kwargs)
+      self.commissions = []
 
     def add_commission(self, comm):
       if isinstance(comm,bt.CommissionInfo):
