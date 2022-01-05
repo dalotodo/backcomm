@@ -10,8 +10,8 @@ class ComposedCommissionInfo(bt.CommissionInfo):
       # Custom params       
     )    
     
-    def __init__(self, **kwargs):
-      bt.CommissionInfo(self,kwargs)
+    def __init__(self):
+      bt.CommissionInfo(self)
       self.commissions = []
 
     def add_commission(self, comm):

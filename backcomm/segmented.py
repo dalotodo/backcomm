@@ -10,8 +10,8 @@ class SegmentedCommissionInfo(bt.CommissionInfo):
       # Custom params       
     )    
 
-    def __init__(self, **kwargs):
-      bt.CommissionInfo(self,kwargs)
+    def __init__(self):
+      bt.CommissionInfo(self)
       self.segments = []
 
     def add_segment(self, from_value, to_value, fixed_comm, perc_comm):
